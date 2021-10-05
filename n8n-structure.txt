@@ -1,0 +1,46 @@
+messages: [
+        {
+          key: "123456",
+          value: JSON.stringify({
+            type: "function",
+            properties: [
+              {
+                name: "conditions",
+                options: [
+                  {
+                    operations: {
+                      name: "boolean",
+                      values: [
+                        {
+                          name: true,
+                          type: "boolean",
+                        },
+                        {
+                          name: "operation",
+                          type: "options",
+                          options: [
+                            {
+                              name: "Equal",
+                              value: "equal",
+                            },
+                          ],
+                        },
+                        {
+                          name: true,
+                          type: "boolean",
+                        },
+                      ],
+                    },
+                    items: [
+                      {
+                        json: {
+                          v1: "banana",
+                          v2: "maçã",
+                          v3: "uva",
+                        },
+                      },
+                    ],
+                  },
+              }
+            ]
+          ]

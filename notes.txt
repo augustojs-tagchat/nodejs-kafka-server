@@ -1,0 +1,14 @@
+options = name, values
+options.value = [{value1}, {operation}, {value2}]
+
+[{json: {v1: 0, v2: 1, operation: "op"}}, {json: {v1: 0, v2: 1}}, {json: {v1: 0, v2: 1}}, {json: {fruta1: "banana", fruta2: "uva"}}]
+
+[{json: {v1, operation, v2, datatype}}]
+
+
+[
+  {
+    jsons: [],
+    operations: []
+  }
+]
